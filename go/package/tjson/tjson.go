@@ -9,6 +9,10 @@ type tjson struct {
 	
 }
 
+func Begin(){
+	fmt.Println("t json is begin")
+}
+
 func (t tjson)MarshalJSON() (a2 []byte, err error){
 	var myArr [6]byte = [6]byte{1,2,3,4,5,6}
 	a2 = myArr[1:]

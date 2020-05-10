@@ -2,8 +2,12 @@ package main
 
 import (
 	"package/tjson"
+	"package/tos"
 )
 
+
+
 func main(){
-	tjson.GetTypeNumberInfo()
+	tos.GetOpenFunc()
+	tjson.Begin()
 }
