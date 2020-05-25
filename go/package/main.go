@@ -1,13 +1,13 @@
 package main
 
 import (
-	"package/tjson"
-	"package/tos"
+	"go-learning/tjson"
+	"go-learning/test"
 )
 
 
 
 func main(){
-	tos.GetOpenFunc()
 	tjson.Begin()
+	test.TestExec()
 }
